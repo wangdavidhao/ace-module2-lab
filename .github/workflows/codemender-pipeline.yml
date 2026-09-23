@@ -67,7 +67,7 @@ jobs:
   codemender-security:
     name: Scan, Identify, and Patch
     runs-on: ubuntu-latest
-    timeout-minutes: 60          # multiple cm fix calls are server round-trips
+    timeout-minutes: 600          # multiple cm fix calls are server round-trips
 
     steps:
       - name: Checkout Code
